@@ -1,6 +1,6 @@
-# Express Sample Applications for Okta
+# Express Sample Docker for Okta
 
-This repository contains several sample applications that show you how to integrate various Okta use-cases into your Node.js application that uses the Express framework.
+This repository contains several sample dockerized apps that show you how to integrate various Okta use-cases. These apps are build using Express + nodejs and much more easily deployed and scaled as compared to the standard node examples.
 
 ## Configuration
 
@@ -49,3 +49,5 @@ PASSWORD=testpass
 ```
 
 With all variables set, run `npm test`
+
+Credit goes to Okta and the associates 
