@@ -26,6 +26,12 @@ Please find the sample that fits your use-case from the table below.
 | [Custom Login Page](/custom-login) | An application server that uses the Okta Sign-In Widget on a custom login page within the application, then creates a cookie session for the user in the Express application. | Traditional web applications with server-side rendered pages. |
 | [Resource Server](/resource-server) | This is a sample API resource server that shows you how to authenticate requests with access tokens that have been issued by Okta. | Single-Page applications. |
 
+## How to Use
+The docker image is ready to deploy. The Dockerfile present in the root directory will start the Custom Okta Login Page example. Optionally, Okta-Hosted Login and Resource Server examples are available in their respective sub-folders.
+
+Run containers however you'd like, exposing port 8080. For example:
+sudo docker run -p 8080:8080 solitonradar/okta-nodejs-express-login
+
 ## Running the tests
 
 Before running the tests you will need to gather values for ALL required environment variables.
