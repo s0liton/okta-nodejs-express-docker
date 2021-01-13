@@ -29,7 +29,7 @@ Please find the sample that fits your use-case from the table below.
 ## Running the tests
 
 Before running the tests you will need to gather values for ALL required environment variables.
-You can export these variables in the shell or store them in a file named `testenv` in the current directory.
+You can export these variables in the shell.
 
 You will need two Okta applications, one Web app and one SPA app. Save the clientId for the Web app as `CLIENT_ID` and the clientId for the SPA app as `SPA_CLIENT_ID`
 
@@ -48,6 +48,4 @@ USERNAME=testuser
 PASSWORD=testpass
 ```
 
-With all variables set, run `npm test`
-
-Credit goes to Okta and the associates 
+Credit goes to Okta and the associates who built these samples. Credit for Dockerization goes to Okta and myself (pedro.santos@okta.com)
